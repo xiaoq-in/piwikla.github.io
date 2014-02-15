@@ -11,8 +11,33 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47035589-1', 'piwik.la');
+  ga('send', 'pageview');
+
+</script>
   </head>
   <body>
+  <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.la/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
     <div class="wrapper">
       <header>
         <h1>Piwik网站数据分析</h1>
@@ -27,8 +52,7 @@
 
 <p>Piwik.la提供<strong>免费</strong>的数据统计服务，基于全球知名的数据分析开源程序Piwik。</p>
 
-<pre><code>
-免费数据统计申请，请发送邮件至admin@piwik.la，
+<pre><code>免费数据统计申请，请发送邮件至admin@piwik.la，
 并提供开通统计的网站名称、域名、账号的用户名，
 我们将在一个工作日为您免费开通（健康合法网站）。
 </code></pre>
@@ -56,17 +80,5 @@ e-mail：admin@piwik.la，
         <p><small>免费数据统计服务由Google Analytics个人认证专家 &mdash; <a href="https://xiaoq.in/">肖庆</a>提供</small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-47035589-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
   </body>
 </html>
